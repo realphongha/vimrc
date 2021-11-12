@@ -79,6 +79,13 @@ endif
 " Always show current position
 set ruler
 
+" Ruler
+set textwidth=79
+set colorcolumn=79
+
+" Use clipboard instead of Vim buffer
+set clipboard^=unnamed,unnamedplus
+
 " Height of the command bar
 set cmdheight=1
 
