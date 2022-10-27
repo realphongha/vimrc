@@ -16,7 +16,7 @@ call pathogen#helptags()
 
 """"""""""""""""""""""""""""""
 " => install Ack ('apt-get install ack' first)
-let g:ackprg = "ag --vimgrep"
+let g:ackprg = "ack"
 """"""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""
