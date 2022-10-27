@@ -14,6 +14,10 @@ call pathogen#infect(s:vim_runtime.'/sources_non_forked/{}')
 call pathogen#infect(s:vim_runtime.'/my_plugins/{}')
 call pathogen#helptags()
 
+""""""""""""""""""""""""""""""
+" => install Ack ('apt-get install ack' first)
+let g:ackprg = "ag --vimgrep"
+""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""
 " => bufExplorer plugin
